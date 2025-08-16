@@ -5,6 +5,12 @@ project:
   audience: Who is this for?
   core_features: ""
 user_stories:
+  - id: US2
+    as: role
+    want: goal
+    so_that: benefit
+    component_ids: []
+    column_id: COL1
   - id: US3
     as: role
     want: goal
