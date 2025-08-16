@@ -7,7 +7,7 @@ project:
 user_stories:
   - id: US2
     as: role
-    want: goal
+    want: goa
     so_that: benefit
     component_ids: []
     column_id: COL1
