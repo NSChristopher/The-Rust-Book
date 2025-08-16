@@ -1,4 +1,4 @@
-zversion: "0.3"
+version: "0.3"
 project:
   name: Untitled App
   mission: Draft mission (edit in Overview).
@@ -6,19 +6,55 @@ project:
   core_features: ""
 user_stories:
   - id: US2
-    as: rolezz
-    want: goall
-    so_that: benefit
-    component_ids: []
-    column_id: COL1
-  - id: US3
-    as: role
-    want: goal
-    so_that: benefit
+    as: ""
+    want: ""
+    so_that: ""
     component_ids: []
     column_id: COL1
 architecture:
-  components: []
+  components:
+    - id: P
+      name: Parent
+      role: frontend
+      children:
+        - id: NC
+          name: New Child
+          role: ui
+          children: []
+        - id: SA
+          name: sdklfds;afffffffffffffffffffffffffffffffffff
+          role: ui
+          children: []
+        - id: NC3
+          name: New Child
+          role: ui
+          children: []
+        - id: NC4
+          name: New Child
+          role: ui
+          children: []
+        - id: NC5
+          name: New Child
+          role: ui
+          children: []
+        - id: D
+          name: dssssssssssssssssssssdsfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+          role: ui
+          children: []
+      layout:
+        x: 272.6515318792386
+        y: -217.89358823121498
+    - id: P2
+      name: Parent
+      role: frontend
+      children:
+        - id: NC2
+          name: New Child
+          role: ui
+          children: []
+      layout:
+        x: 824.1704370697252
+        y: 77.75895164734197
   edges: []
 sprints: []
 columns:
