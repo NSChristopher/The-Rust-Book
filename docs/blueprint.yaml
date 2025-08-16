@@ -1,4 +1,4 @@
-version: "0.3"
+zversion: "0.3"
 project:
   name: Untitled App
   mission: Draft mission (edit in Overview).
@@ -6,7 +6,7 @@ project:
   core_features: ""
 user_stories:
   - id: US2
-    as: role
+    as: rolezz
     want: goall
     so_that: benefit
     component_ids: []
