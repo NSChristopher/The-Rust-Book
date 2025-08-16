@@ -9,9 +9,6 @@ user_stories:
     as: role
     want: goal
     so_that: benefit
-    acceptance_criteria:
-      - description: ""
-        completed: false
     component_ids: []
     column_id: COL1
 architecture:
