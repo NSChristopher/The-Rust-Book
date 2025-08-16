@@ -5,61 +5,38 @@ project:
   audience: Who is this for?
   core_features: ""
 user_stories:
-  - id: US2
-    as: ""
+  - id: US1
+    as: users
     want: ""
     so_that: ""
+    acceptance_criteria:
+      - description: ""
+        completed: false
+    component_ids: []
+    column_id: COL1
+  - id: US2
+    as: manager
+    want: ""
+    so_that: ""
+    acceptance_criteria:
+      - description: ""
+        completed: false
     component_ids: []
     column_id: COL1
 architecture:
-  components:
-    - id: P
-      name: Parent
-      role: frontend
-      children:
-        - id: NC
-          name: New Child
-          role: ui
-          children: []
-        - id: SA
-          name: sdklfds;afffffffffffffffffffffffffffffffffff
-          role: ui
-          children: []
-        - id: NC3
-          name: New Child
-          role: ui
-          children: []
-        - id: NC4
-          name: New Child
-          role: ui
-          children: []
-        - id: NC5
-          name: New Child
-          role: ui
-          children: []
-        - id: D
-          name: dssssssssssssssssssssdsfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-          role: ui
-          children: []
-      layout:
-        x: 272.6515318792386
-        y: -217.89358823121498
-    - id: P2
-      name: Parent
-      role: frontend
-      children:
-        - id: NC2
-          name: New Child
-          role: ui
-          children: []
-      layout:
-        x: 824.1704370697252
-        y: 77.75895164734197
+  components: []
   edges: []
-sprints: []
+sprints:
+  - id: 1
+    name: Sprint 1
+    color: "#0ea5e9"
+    user_story_ids:
+      - US1
+      - US2
+    stage_gates: []
 columns:
   - id: COL1
-    title: New Column
+    title: Frontend Shopping
     order: 0
 prompt_style:
   tone: kid-friendly
