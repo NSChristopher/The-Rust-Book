@@ -14,6 +14,15 @@ user_stories:
         completed: false
     component_ids: []
     column_id: COL1
+  - id: US5
+    as: role
+    want: ice cream
+    so_that: benefit
+    acceptance_criteria:
+      - description: ""
+        completed: false
+    component_ids: []
+    column_id: COL1
   - id: US2
     as: role
     want: goalsss
