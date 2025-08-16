@@ -20,7 +20,7 @@ architecture:
 sprints: []
 columns:
   - id: COL1
-    title: Stories
+    title: New Column
     order: 0
 prompt_style:
   tone: kid-friendly
